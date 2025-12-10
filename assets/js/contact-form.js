@@ -9,9 +9,9 @@
         messages: $('<p class="form-messages mb-0 mt-3"></p>'), // We'll append dynamically if not present
 
         emailjsConfig: {
-            serviceId: 'service_ldbswhm',    // Your EmailJS Service ID
-            templateId: 'template_eyqddl9',  // Your EmailJS Template ID
-            publicKey: 'rf8opFDE0m8LOp-lE'  // Your EmailJS Public Key
+            serviceId: 'service_g3l0tsb',    // Your EmailJS Service ID
+            templateId: 'template_0mfxwl7',  // Your EmailJS Template ID
+            publicKey: 'GrVpgwhTlN3X7_iN_'  // Your EmailJS Public Key
         },
 
         init: function() {
@@ -127,8 +127,8 @@
                 this.emailjsConfig.serviceId,
                 this.emailjsConfig.templateId,
                 {
-                    to_name: 'Binarywise Team',
-                    to_email: 'info@binarywise.io',
+                    to_name: 'AusLan Team',
+                    to_email: 'sprajamanthri@gmail.com',
                     from_name: formData.name,
                     from_email: formData.email,
                     phone_number: formData.number,
